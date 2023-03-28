@@ -23,7 +23,7 @@ export const Contact = (props) => {
                                 <a href={obj[1].link}>
                                     <img 
                                         className='contact-img'
-                                        src={process.env.PUBLIC_URL + obj[1].img} 
+                                        src={process.env.PUBLIC_URL + '/' + obj[1].img} 
                                         alt={obj[1].link}
                                     />
                                 </a>

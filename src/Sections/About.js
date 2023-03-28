@@ -22,7 +22,7 @@ export const About = (props) => {
             <div className='row my-4'>
                 <div className='col-sm-12 fs-3 fw-semibold text-center'>
                     <img 
-                        src={process.env.PUBLIC_URL + 'LinkedIn_profile_photo.jpg'} 
+                        src={process.env.PUBLIC_URL + '/LinkedIn_profile_photo.jpg'} 
                         alt="Abdullah"
                         className='rounded-circle profile-img-hw'
                         style={{ boxShadow: '10px 10px 10px rgba(0, 0, 0, 0.5)' }}

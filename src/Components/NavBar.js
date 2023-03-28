@@ -12,7 +12,7 @@ export const NavBar = (props) => {
     return (
         <nav className="navbar navbar-expand-md bg-light">
             <div className="container-fluid">
-                <a className="navbar-brand" href="https://mahmudmridul.github.io/personal-website/">{props.name}</a>
+                <a className="navbar-brand" href="https://mahmudmridul.github.io/abdullahal.mahmud/">{props.name}</a>
                 <button 
                     className="navbar-toggler" 
                     type="button" 
