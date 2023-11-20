@@ -4,6 +4,12 @@ module.exports = {
       "./src/**/*.{js,jsx,ts,tsx}",
    ],
    theme: {
+      container: {
+         center: true,
+      },
+      fontFamily: {
+         nunito: ['Nunito', 'sans-serif'],
+      },
       extend: {},
    },
    plugins: [],
