@@ -15,18 +15,18 @@ export const experiences = [
             detail: `Maintainance of Java-based web application, 
             playing lead role in enhancing the application's installer and 
             modernizing its codebase to support the latest libraries.`,
-            tech: `Java, JSP, JavaScript, Apache Tomcat, Apache Ant, MS SQL Server`
+            tech: ["Java", "JSP", "JavaScript", "Apache Tomcat", "Apache Ant", "MS SQL Server"]
          },
          {
             detail: `Collaborated on a React project that included a dashboard, 
             an administrative panel, and data visualization features.`,
-            tech: "React, JavaScript, MUI, Google React Charts, Apex Charts"
+            tech: ["React", "JavaScript", "MUI", "Google React Charts", "Apex Charts"]
          },
          {
             detail: `Maintainance of APIs and background processes of a web application.
             Fixing bug, Resolving client issues, developing console application to automate
             manual tasks.`,
-            tech: "C#, ASP.NET, MS SQL Server"
+            tech: ["C#", "ASP.NET", "MS SQL Server"]
          }
       ],
    },
