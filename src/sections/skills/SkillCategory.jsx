@@ -1,5 +1,5 @@
 import React from "react";
-import Badge from "./Badge";
+import Badge from "../../components/Badge";
 
 export default function SkillCategory({ skill }) {
    const { title, tech } = skill;
