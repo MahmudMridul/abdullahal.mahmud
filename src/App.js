@@ -1,7 +1,12 @@
-import React from 'react'
-
+import React from 'react';
+import Overview from './sections/Overview';
+import ExperienceList from './sections/experience/ExperienceList';
+// change tailwind from dev dependencies to dependencies
 export default function App() {
    return (
-      <div className="font-bold text-3xl">App</div>
+      <main className="container max-w-5xl p-4 font-nunito bg-slate-100">
+         <Overview />
+         <ExperienceList />
+      </main>
    )
 }

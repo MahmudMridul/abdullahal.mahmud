@@ -2,22 +2,40 @@ export const basicInfo = {
    name: "Abdullah Al Mahmud",
    designation: "Associate Software Developer",
    company: "IQVIA",
-   overview: "",
+   timeSpan: "August 2021 - Present",
 };
 
-export const experience = [
+export const experiences = [
    {
       role: "Associate Software Developer",
       company: "IQVIA",
       timeSpan: "August 2021 - Present",
-      responsibilities: "",
+      responsibilities: [
+         {
+            detail: `Maintainance of Java-based web application, 
+            playing lead role in enhancing the application's installer and 
+            modernizing its codebase to support the latest libraries.`,
+            tech: `Java, JSP, JavaScript, Apache Tomcat, Apache Ant, MS SQL Server`
+         },
+         {
+            detail: `Collaborated on a React project that included a dashboard, 
+            an administrative panel, and data visualization features.`,
+            tech: "React, JavaScript, MUI, Google React Charts, Apex Charts"
+         },
+         {
+            detail: `Maintainance of APIs and background processes of a web application.
+            Fixing bug, Resolving client issues, developing console application to automate
+            manual tasks.`,
+            tech: "C#, ASP.NET, MS SQL Server"
+         }
+      ],
    },
 ];
 
 export const skills = {
    backEnd: ["Java", ".NET", "Python"],
    backEndFrameworkOrLibrary: ["LINQ", "NUnit", "Entity Framework"],
-   frontEnd: ["HTML", "CSS", "Bootstrap", "TailwindCSS"],
+   frontEnd: ["HTML", "CSS", "JavaScript", "Bootstrap", "TailwindCSS"],
    frontEndFrameworkOrLibrary: ["React", "Material UI", "Google Charts", "Apex Charts"],
    database: ["MySQL", "MS SQL Server"],
    versionControl: [
@@ -33,7 +51,27 @@ export const skills = {
 };
 
 export const certifications = [];
-export const education = [];
+export const education = [
+   {
+      degree: "Bachelor of Science",
+      institution: "BRAC University",
+      major: "Computer Science & Engineering",
+      cgpa: 3.6,
+      time: "2017 - 2021"
+   },
+   {
+      degree: "HSC",
+      institution: "Govt. Science College",
+      cgpa: 5.0,
+      time: "2014 - 2016"
+   },
+   {
+      degree: "SSC",
+      institution: "Govt. Science School",
+      cgpa: 5.0,
+      time: "2004 - 2013"
+   }
+];
 export const projects = [];
 export const contacts = [
    {
@@ -66,24 +104,3 @@ export const contacts = [
 //       "sql": "Advanced SQL for Data Scientists (2017) [LinkedIn Learning]"
 //    }
 // ],
-//    "education": [
-//       {
-//          "degree": "Bachelor of Science",
-//          "institution": "BRAC University",
-//          "major": "Computer Science & Engineering",
-//          "cgpa": 3.6,
-//          "time": "2017 - 2021"
-//       },
-//       {
-//          "degree": "HSC",
-//          "institution": "Govt. Science College",
-//          "cgpa": 5.0,
-//          "time": "2014 - 2016"
-//       },
-//       {
-//          "degree": "SSC",
-//          "institution": "Govt. Science School",
-//          "cgpa": 5.0,
-//          "time": "2004 - 2013"
-//       }
-//    ],
