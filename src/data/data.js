@@ -33,21 +33,48 @@ export const experiences = [
 ];
 
 export const skills = {
-   backEnd: ["Java", ".NET", "Python"],
-   backEndFrameworkOrLibrary: ["LINQ", "NUnit", "Entity Framework"],
-   frontEnd: ["HTML", "CSS", "JavaScript", "Bootstrap", "TailwindCSS"],
-   frontEndFrameworkOrLibrary: ["React", "Material UI", "Google Charts", "Apex Charts"],
-   database: ["MySQL", "MS SQL Server"],
-   versionControl: [
-      "Git",
-      "GitHub",
-      "TortoiseGit",
-      "Subversion",
-      "TortoiseSVN"
-   ],
-   projectManagement: ["JIRA"],
-   dataVisualisation: ["Power BI"],
-   officeTools: ["MS Word", "MS Excel", "MS Powerpoint"],
+   backend: {
+      title: "Backend",
+      tech: ["Java", ".NET", "Python"],
+   },
+   backendFrameworkLibrary: {
+      title: "Backend Framework/Library",
+      tech: ["LINQ", "NUnit", "Entity Framework"],
+   },
+   frontend: {
+      title: "Frontend",
+      tech: ["HTML", "CSS", "JavaScript", "Bootstrap", "TailwindCSS"]
+   },
+   frontendFrameworkOrLibrary: {
+      title: "Frontend Framework/Library",
+      tech: ["React", "Material UI", "Google React Charts", "Apex Charts"],
+   },
+   database: {
+      title: "Database",
+      tech: ["MySQL", "MS SQL Server"],
+   },
+   versionControl: {
+      title: "Version Control",
+      tech: [
+         "Git",
+         "GitHub",
+         "TortoiseGit",
+         "Subversion",
+         "TortoiseSVN"
+      ],
+   },
+   projectManagement: {
+      title: "Project Management",
+      tech: ["JIRA"],
+   },
+   dataVisualisation: {
+      title: "Data Visualisation",
+      tech: ["Power BI"],
+   },
+   officeTools: {
+      title: "Office Tools",
+      tech: ["MS Word", "MS Excel", "MS Powerpoint"],
+   }
 };
 
 export const certifications = [];
