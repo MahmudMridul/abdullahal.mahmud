@@ -77,7 +77,48 @@ export const skills = {
    }
 };
 
-export const certifications = [];
+export const certifications = [
+   {
+      name: "RESTful Web API .NET 7",
+      link: "https://www.udemy.com/certificate/UC-76ba7600-fbc0-433b-b534-3b2d06c0aa9b/",
+      platform: "Udemy"
+   },
+   {
+      name: "LINQ Tutorial",
+      link: "https://www.udemy.com/certificate/UC-362fb99b-98e9-47e4-8f1b-ccc53c0450f4/",
+      platform: "Udemy"
+   },
+   {
+      name: "Unit Testing",
+      link: "https://www.udemy.com/certificate/UC-6eca7ead-2a01-47dd-b987-53e1972c1f94/",
+      platform: "Udemy"
+   },
+   {
+      name: ".NET 5 and Entity Framwork",
+      link: "https://www.udemy.com/certificate/UC-fc2f459b-9d7a-4082-a119-ab3b81022685/",
+      platform: "Udemy"
+   },
+   {
+      name: "MS SQL Server",
+      link: "https://www.udemy.com/certificate/UC-efbbf1da-a97c-4cad-88db-328772e90dee/",
+      platform: "Udemy"
+   },
+   {
+      name: "Java (Basic)",
+      link: "https://www.hackerrank.com/certificates/599036d179e6",
+      platform: "Hacker Rank"
+   },
+   {
+      name: "Problem solving (Basic)",
+      link: "https://www.hackerrank.com/certificates/91e7e3042b00",
+      platform: "Hacker Rank"
+   },
+   {
+      name: "SOLID Principles",
+      link: "https://www.udemy.com/certificate/UC-27d6d716-b93b-4b45-b3d1-6a21f16fef52/",
+      platform: "Udemy"
+   },
+];
 export const education = [
    {
       degree: "Bachelor of Science",
@@ -110,24 +151,3 @@ export const contacts = [
       img: "linkedin.png"
    }
 ];
-
-// "certifications": [
-//    {
-//       "problemSolving": "Problem solving (Basic) [HackerRank]",
-//       "link": "https://www.hackerrank.com/certificates/91e7e3042b00"
-//    },
-//    {
-//       "javaBasic": "Java (Basic) [HackerRank]",
-//       "link": "https://www.hackerrank.com/certificates/599036d179e6"
-//    },
-//    {
-//       "javaEE": "Introduction to Java EE [Udemy]",
-//       "link": "https://www.udemy.com/certificate/UC-243c8565-f318-44cd-b5a0-c41c7a3c2857/"
-//    },
-//    {
-//       "entityFramework": "Introduction to Entity Framework [LinkedIn Learning]"
-//    },
-//    {
-//       "sql": "Advanced SQL for Data Scientists (2017) [LinkedIn Learning]"
-//    }
-// ],
