@@ -140,7 +140,49 @@ export const education = [
       time: "2004 - 2013"
    }
 ];
-export const projects = [];
+export const projects = [
+   {
+      name: "File Converter",
+      source: "IQVIA",
+      detail: `A Java web app parsing flat files via Excel-defined schema to generate corresponding XML file.`,
+      link: "",
+      tech: ["Java", "JSP", "JavaScript", "Apache Tomcat", "Apache Ant", "MS SQL Server"]
+   },
+   {
+      name: "Dashboard",
+      source: "IQVIA",
+      detail: `A comprehensive React application integrating login, dashboard, admin features, analysis tools, 
+      and quota management functionalities seamlessly.`,
+      link: "",
+      tech: ["React", "JavaScript", "MUI", "Google React Charts", "Apex Charts"]
+   },
+   {
+      name: "Sample Management",
+      source: "IQVIA",
+      detail: ` A .NET Web API for admin tasks: doctor management, 
+      drug samples, digital/manual signatures, image uploads, document signing, and quota allocation`,
+      link: "",
+      tech: ["C#", "ASP.NET", "MS SQL Server"]
+   },
+   {
+      name: "VillaAPI",
+      source: "Personal",
+      detail: `A collection of APIs employing CRUD, authentication, pagination, 
+      caching, and repository pattern for efficient data handling and secure operations`,
+      link: "https://github.com/MahmudMridul/MagicVilla",
+      tech: ["C#", "ASP.NET", "MS SQL Server"]
+   },
+   {
+      name: "T-Shirt Store Dashboard (In Progress)",
+      source: "Personal",
+      detail: `The T-shirt store dashboard project features a comprehensive interface with 
+      user charts, tables, inventory, and order management tools. 
+      It includes analysis capabilities alongside secure login/logout functionalities for seamless monitoring 
+      and control of store operations`,
+      link: "https://github.com/LailaSumiyaKhan/dashboard",
+      tech: ["React", "MUI", "Apex Charts"]
+   }
+];
 export const contacts = [
    {
       link: "mailto:mahmudmridul.185@gmail.com",
