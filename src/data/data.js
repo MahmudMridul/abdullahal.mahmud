@@ -119,7 +119,7 @@ export const certifications = [
       platform: "Udemy"
    },
 ];
-export const education = [
+export const educations = [
    {
       degree: "Bachelor of Science",
       institution: "BRAC University",
@@ -130,12 +130,14 @@ export const education = [
    {
       degree: "HSC",
       institution: "Govt. Science College",
+      major: "",
       cgpa: 5.0,
       time: "2014 - 2016"
    },
    {
       degree: "SSC",
       institution: "Govt. Science School",
+      major: "",
       cgpa: 5.0,
       time: "2004 - 2013"
    }
