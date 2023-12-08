@@ -2,6 +2,9 @@ import React from 'react';
 import Overview from './sections/Overview';
 import ExperienceList from './sections/experience/ExperienceList';
 import Skills from './sections/skills/Skills';
+import Projects from './sections/projects/Projects';
+import Certifications from './sections/certifications/Certifications';
+import Education from './sections/education/Education';
 // change tailwind from dev dependencies to dependencies
 export default function App() {
    return (
@@ -9,6 +12,9 @@ export default function App() {
          <Overview />
          <ExperienceList />
          <Skills />
+         <Projects />
+         <Certifications />
+         <Education />
       </main>
    )
 }
