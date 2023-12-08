@@ -1,7 +1,7 @@
 import React from "react";
-import { basicInfo } from "../data/data";
+import { basicInfo } from "../../data/data";
 
-export default function Overview() {
+export default function About() {
    const { name, designation, company, timeSpan } = basicInfo;
    return (
       <header>

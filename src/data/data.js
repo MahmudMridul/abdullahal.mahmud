@@ -20,7 +20,7 @@ export const experiences = [
          {
             detail: `Collaborated on a React project that included a dashboard, 
             an administrative panel, and data visualization features.`,
-            tech: ["React", "JavaScript", "MUI", "Google React Charts", "Apex Charts"]
+            tech: ["React", "Redux-toolkit", "JavaScript", "MUI", "Google React Charts", "Apex Charts"]
          },
          {
             detail: `Maintainance of APIs and background processes of a web application.
@@ -47,7 +47,7 @@ export const skills = {
    },
    frontendFrameworkOrLibrary: {
       title: "Frontend Framework/Library",
-      tech: ["React", "Material UI", "Google React Charts", "Apex Charts"],
+      tech: ["React", "Redux-toolkit", "Material UI", "Google React Charts", "Apex Charts"],
    },
    database: {
       title: "Database",
@@ -156,7 +156,7 @@ export const projects = [
       detail: `A comprehensive React application integrating login, dashboard, admin features, analysis tools, 
       and quota management functionalities seamlessly.`,
       link: "",
-      tech: ["React", "JavaScript", "MUI", "Google React Charts", "Apex Charts"]
+      tech: ["React", "Redux-toolkit", "JavaScript", "MUI", "Google React Charts", "Apex Charts"]
    },
    {
       name: "Sample Management",
@@ -182,7 +182,7 @@ export const projects = [
       It includes analysis capabilities alongside secure login/logout functionalities for seamless monitoring 
       and control of store operations`,
       link: "https://github.com/LailaSumiyaKhan/dashboard",
-      tech: ["React", "MUI", "Apex Charts"]
+      tech: ["React", "Redux-toolkit", "MUI", "Apex Charts"]
    }
 ];
 export const contacts = [
