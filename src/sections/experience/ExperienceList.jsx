@@ -6,7 +6,9 @@ export default function ExperienceList() {
    const experiences = useSelector((store) => store.app.experiences);
    return (
       <section>
-         <h5 className="mt-20 text-2xl font-bold">Experience</h5>
+         <h5 className="mt-20 text-2xl font-bold underline underline-offset-8">
+            Experience
+         </h5>
          {experiences.map((experience, index) => {
             return <Experience key={index} experience={experience} />;
          })}

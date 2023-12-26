@@ -1,5 +1,4 @@
 import React from "react";
-import { basicInfo } from "../../data/data";
 import { useSelector } from "react-redux";
 
 export default function About() {

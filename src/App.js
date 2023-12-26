@@ -17,7 +17,7 @@ export default function App() {
    }, [])
 
    return (
-      <main className="container max-w-5xl py-4 px-16 font-nunito bg-slate-100 shadow-2xl">
+      <main className="container max-w-5xl py-4 sm:px-4 md:px-16 font-nunito bg-slate-100 shadow-2xl">
          {isLoading ? <Spinner /> :
             <>
                <About />
