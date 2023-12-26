@@ -3,6 +3,7 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 const initialState = {
    isLoading: true,
    basicInfo: null,
+   contacts: null,
    experiences: null,
    skills: null,
    projects: null,
@@ -17,6 +18,7 @@ export const getData = createAsyncThunk(
          const baseUrl = `${process.env.PUBLIC_URL}/data`;
          const responses = await Promise.all([
             fetch(`${baseUrl}/basicInfo.json`),
+            fetch(`${baseUrl}/contacts.json`),
             fetch(`${baseUrl}/experiences.json`),
             fetch(`${baseUrl}/skills.json`),
             fetch(`${baseUrl}/projects.json`),
@@ -52,8 +54,9 @@ export const appSlice = createSlice({
       builder
          .addCase(getData.pending, (state, action) => { state.isLoading = true; })
          .addCase(getData.fulfilled, (state, action) => {
-            const [basicInfo, experiences, skills, projects, certifications, educations] = action.payload;
+            const [basicInfo, contacts, experiences, skills, projects, certifications, educations] = action.payload;
             state.basicInfo = basicInfo;
+            state.contacts = contacts;
             state.experiences = experiences;
             state.skills = skills;
             state.projects = projects;
