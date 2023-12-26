@@ -1,0 +1,23 @@
+[
+   {
+      "degree": "Bachelor of Science",
+      "institution": "BRAC University",
+      "major": "Computer Science & Engineering",
+      "cgpa": 3.6,
+      "time": "2017 - 2021"
+   },
+   {
+      "degree": "HSC",
+      "institution": "Govt. Science College",
+      "major": "",
+      "cgpa": 5.0,
+      "time": "2014 - 2016"
+   },
+   {
+      "degree": "SSC",
+      "institution": "Govt. Science School",
+      "major": "",
+      "cgpa": 5.0,
+      "time": "2004 - 2013"
+   }
+]
