@@ -1,8 +1,9 @@
 import React from "react";
-import { skills } from "../../data/data";
 import SkillCategory from "./SkillCategory";
+import { useSelector } from "react-redux";
 
 export default function Skills() {
+   const skills = useSelector((store) => store.app.skills);
    return (
       <section>
          <h5 className="mt-20 text-2xl font-bold">Skills</h5>

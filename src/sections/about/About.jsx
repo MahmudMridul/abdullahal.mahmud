@@ -1,7 +1,9 @@
 import React from "react";
 import { basicInfo } from "../../data/data";
+import { useSelector } from "react-redux";
 
 export default function About() {
+   const basicInfo = useSelector((store) => store.app.basicInfo);
    const { name, designation, company, timeSpan } = basicInfo;
    return (
       <header>

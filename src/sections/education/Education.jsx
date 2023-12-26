@@ -1,7 +1,8 @@
 import React from "react";
-import { educations } from "../../data/data";
 import EducationItem from "./EducationItem";
+import { useSelector } from "react-redux";
 export default function Education() {
+   const educations = useSelector((store) => store.app.educations);
    return (
       <section>
          <h5 className="mt-20 text-2xl font-bold">Education</h5>
