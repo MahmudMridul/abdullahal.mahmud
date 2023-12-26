@@ -20,7 +20,7 @@ export default function ProjectItem({ project }) {
          })}
 
          {link !== "" ? (
-            <div className="text-lg font-bold">
+            <div className="text-lg font-bold underline underline-offset-4">
                <a href={link} target="_blank" rel="noreferrer">
                   Link
                </a>
