@@ -1,11 +1,379 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdullah Al Mahmud - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dark: '#0f172a',
+                        'dark-lighter': '#1e293b',
+                        accent: '#3b82f6'
+                    }
+                }
+            }
+        }
+    </script>
 </head>
-<body>
-  
+<body class="bg-dark text-gray-100 font-sans">
+    <!-- Header -->
+    <header class="bg-dark-lighter shadow-lg">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <h1 class="text-2xl font-bold text-accent">Abdullah Al Mahmud</h1>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#about" class="hover:text-accent transition duration-300">About</a>
+                    <a href="#experience" class="hover:text-accent transition duration-300">Experience</a>
+                    <a href="#education" class="hover:text-accent transition duration-300">Education</a>
+                    <a href="#skills" class="hover:text-accent transition duration-300">Skills</a>
+                    <a href="#contact" class="hover:text-accent transition duration-300">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-20 text-center">
+        <div class="container mx-auto px-6">
+            <h2 class="text-5xl font-bold mb-4">Software Engineer</h2>
+            <p class="text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
+                Passionate about creating innovative solutions with expertise in web development, 
+                mobile applications, and modern technologies.
+            </p>
+            <div class="flex justify-center space-x-4">
+                <a href="mailto:abdullahal.mahmud.bd@gmail.com" 
+                   class="bg-accent hover:bg-blue-600 text-white px-6 py-3 rounded-lg transition duration-300">
+                    Get In Touch
+                </a>
+                <a href="tel:+8801521520519" 
+                   class="border border-accent text-accent hover:bg-accent hover:text-white px-6 py-3 rounded-lg transition duration-300">
+                    Call Me
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-dark-lighter">
+        <div class="container mx-auto px-6">
+            <h3 class="text-3xl font-bold mb-8 text-center">About Me</h3>
+            <div class="max-w-4xl mx-auto">
+                <div class="grid md:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            I am a dedicated Software Engineer with a passion for developing innovative programs 
+                            that expedite the efficiency and effectiveness of organizational success. 
+                        </p>
+                        <p class="text-gray-300 leading-relaxed">
+                            With experience in web development, mobile applications, and various programming 
+                            languages, I bring technical expertise and creative problem-solving to every project.
+                        </p>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="flex justify-between">
+                            <span class="font-semibold">Location:</span>
+                            <span class="text-gray-400">Dhaka, Bangladesh</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="font-semibold">Email:</span>
+                            <span class="text-gray-400">abdullahal.mahmud.bd@gmail.com</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="font-semibold">Phone:</span>
+                            <span class="text-gray-400">+880 1521520519</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="font-semibold">LinkedIn:</span>
+                            <span class="text-gray-400">abdullahal-mahmud</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-16">
+        <div class="container mx-auto px-6">
+            <h3 class="text-3xl font-bold mb-12 text-center">Professional Experience</h3>
+            <div class="max-w-4xl mx-auto">
+                
+                <!-- Bangla Puzzle Limited -->
+                <div class="mb-12 bg-dark-lighter p-6 rounded-lg">
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+                        <div>
+                            <h4 class="text-xl font-bold text-accent">Software Engineer</h4>
+                            <p class="text-lg text-gray-300">Bangla Puzzle Limited</p>
+                        </div>
+                        <span class="text-gray-400 mt-2 md:mt-0">Feb 2024 - Present</span>
+                    </div>
+                    <ul class="text-gray-300 space-y-2">
+                        <li>• Developed and maintained web applications using modern frameworks</li>
+                        <li>• Collaborated with cross-functional teams to deliver high-quality software solutions</li>
+                        <li>• Implemented responsive designs and optimized application performance</li>
+                    </ul>
+                </div>
+
+                <!-- Field Nation -->
+                <div class="mb-12 bg-dark-lighter p-6 rounded-lg">
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+                        <div>
+                            <h4 class="text-xl font-bold text-accent">Contractor / Field Engineer</h4>
+                            <p class="text-lg text-gray-300">Field Nation</p>
+                        </div>
+                        <span class="text-gray-400 mt-2 md:mt-0">Jan 2022 - Present</span>
+                    </div>
+                    <ul class="text-gray-300 space-y-2">
+                        <li>• Provided technical support and field engineering services</li>
+                        <li>• Managed multiple projects and maintained client relationships</li>
+                        <li>• Troubleshot hardware and software issues in various environments</li>
+                    </ul>
+                </div>
+
+                <!-- School of Engg. Tech, EWU -->
+                <div class="bg-dark-lighter p-6 rounded-lg">
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+                        <div>
+                            <h4 class="text-xl font-bold text-accent">Lab Instructor</h4>
+                            <p class="text-lg text-gray-300">School of Engineering & Technology, East West University</p>
+                        </div>
+                        <span class="text-gray-400 mt-2 md:mt-0">Jan 2022 - Feb 2024</span>
+                    </div>
+                    <ul class="text-gray-300 space-y-2">
+                        <li>• Instructed students in computer programming and software development</li>
+                        <li>• Designed and conducted practical laboratory sessions</li>
+                        <li>• Mentored students in various programming languages and technologies</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-16 bg-dark-lighter">
+        <div class="container mx-auto px-6">
+            <h3 class="text-3xl font-bold mb-12 text-center">Education</h3>
+            <div class="max-w-4xl mx-auto">
+                
+                <!-- Bachelor's Degree -->
+                <div class="mb-8 bg-dark p-6 rounded-lg">
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+                        <div>
+                            <h4 class="text-xl font-bold text-accent">Bachelor of Science in Computer Science & Engineering</h4>
+                            <p class="text-lg text-gray-300">East West University</p>
+                            <p class="text-gray-400">CGPA: 3.33 out of 4.00</p>
+                        </div>
+                        <span class="text-gray-400 mt-2 md:mt-0">2018 - 2022</span>
+                    </div>
+                </div>
+
+                <!-- HSC -->
+                <div class="mb-8 bg-dark p-6 rounded-lg">
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+                        <div>
+                            <h4 class="text-xl font-bold text-accent">Higher Secondary Certificate (HSC)</h4>
+                            <p class="text-lg text-gray-300">Notre Dame College</p>
+                            <p class="text-gray-400">GPA: 5.00 out of 5.00</p>
+                        </div>
+                        <span class="text-gray-400 mt-2 md:mt-0">2015 - 2017</span>
+                    </div>
+                </div>
+
+                <!-- SSC -->
+                <div class="bg-dark p-6 rounded-lg">
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+                        <div>
+                            <h4 class="text-xl font-bold text-accent">Secondary School Certificate (SSC)</h4>
+                            <p class="text-lg text-gray-300">Rajuk Uttara Model College</p>
+                            <p class="text-gray-400">GPA: 5.00 out of 5.00</p>
+                        </div>
+                        <span class="text-gray-400 mt-2 md:mt-0">2013 - 2015</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16">
+        <div class="container mx-auto px-6">
+            <h3 class="text-3xl font-bold mb-12 text-center">Technical Skills</h3>
+            <div class="max-w-6xl mx-auto">
+                <div class="grid md:grid-cols-3 gap-8">
+                    
+                    <!-- Programming Languages -->
+                    <div class="bg-dark-lighter p-6 rounded-lg">
+                        <h4 class="text-xl font-bold text-accent mb-4">Programming Languages</h4>
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center">
+                                <span>JavaScript</span>
+                                <div class="w-20 bg-gray-600 rounded-full h-2">
+                                    <div class="bg-accent h-2 rounded-full w-5/6"></div>
+                                </div>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span>Python</span>
+                                <div class="w-20 bg-gray-600 rounded-full h-2">
+                                    <div class="bg-accent h-2 rounded-full w-4/5"></div>
+                                </div>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span>Java</span>
+                                <div class="w-20 bg-gray-600 rounded-full h-2">
+                                    <div class="bg-accent h-2 rounded-full w-3/4"></div>
+                                </div>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span>C/C++</span>
+                                <div class="w-20 bg-gray-600 rounded-full h-2">
+                                    <div class="bg-accent h-2 rounded-full w-3/4"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Web Technologies -->
+                    <div class="bg-dark-lighter p-6 rounded-lg">
+                        <h4 class="text-xl font-bold text-accent mb-4">Web Technologies</h4>
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center">
+                                <span>HTML/CSS</span>
+                                <div class="w-20 bg-gray-600 rounded-full h-2">
+                                    <div class="bg-accent h-2 rounded-full w-5/6"></div>
+                                </div>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span>React</span>
+                                <div class="w-20 bg-gray-600 rounded-full h-2">
+                                    <div class="bg-accent h-2 rounded-full w-4/5"></div>
+                                </div>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span>Node.js</span>
+                                <div class="w-20 bg-gray-600 rounded-full h-2">
+                                    <div class="bg-accent h-2 rounded-full w-3/4"></div>
+                                </div>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span>Express.js</span>
+                                <div class="w-20 bg-gray-600 rounded-full h-2">
+                                    <div class="bg-accent h-2 rounded-full w-3/4"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tools & Others -->
+                    <div class="bg-dark-lighter p-6 rounded-lg">
+                        <h4 class="text-xl font-bold text-accent mb-4">Tools & Others</h4>
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center">
+                                <span>Git/GitHub</span>
+                                <div class="w-20 bg-gray-600 rounded-full h-2">
+                                    <div class="bg-accent h-2 rounded-full w-5/6"></div>
+                                </div>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span>MongoDB</span>
+                                <div class="w-20 bg-gray-600 rounded-full h-2">
+                                    <div class="bg-accent h-2 rounded-full w-3/4"></div>
+                                </div>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span>MySQL</span>
+                                <div class="w-20 bg-gray-600 rounded-full h-2">
+                                    <div class="bg-accent h-2 rounded-full w-3/4"></div>
+                                </div>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span>Docker</span>
+                                <div class="w-20 bg-gray-600 rounded-full h-2">
+                                    <div class="bg-accent h-2 rounded-full w-2/3"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-dark-lighter">
+        <div class="container mx-auto px-6">
+            <h3 class="text-3xl font-bold mb-12 text-center">Get In Touch</h3>
+            <div class="max-w-4xl mx-auto">
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h4 class="text-xl font-bold text-accent mb-6">Contact Information</h4>
+                        <div class="space-y-4">
+                            <div class="flex items-center">
+                                <span class="font-semibold w-20">Email:</span>
+                                <a href="mailto:abdullahal.mahmud.bd@gmail.com" 
+                                   class="text-accent hover:underline">abdullahal.mahmud.bd@gmail.com</a>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="font-semibold w-20">Phone:</span>
+                                <a href="tel:+8801521520519" 
+                                   class="text-accent hover:underline">+880 1521520519</a>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="font-semibold w-20">LinkedIn:</span>
+                                <a href="https://linkedin.com/in/abdullahal-mahmud" 
+                                   class="text-accent hover:underline" target="_blank">abdullahal-mahmud</a>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="font-semibold w-20">Location:</span>
+                                <span class="text-gray-300">Dhaka, Bangladesh</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-bold text-accent mb-6">Let's Connect</h4>
+                        <p class="text-gray-300 mb-6">
+                            I'm always interested in hearing about new opportunities and projects. 
+                            Feel free to reach out if you'd like to discuss potential collaborations 
+                            or just want to connect!
+                        </p>
+                        <div class="flex space-x-4">
+                            <a href="mailto:abdullahal.mahmud.bd@gmail.com" 
+                               class="bg-accent hover:bg-blue-600 text-white px-6 py-3 rounded-lg transition duration-300">
+                                Send Email
+                            </a>
+                            <a href="tel:+8801521520519" 
+                               class="border border-accent text-accent hover:bg-accent hover:text-white px-6 py-3 rounded-lg transition duration-300">
+                                Call Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark py-8 text-center">
+        <div class="container mx-auto px-6">
+            <p class="text-gray-400">
+                © 2025 Abdullah Al Mahmud. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Smooth Scrolling Script -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
