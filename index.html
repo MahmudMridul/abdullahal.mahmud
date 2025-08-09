@@ -41,6 +41,16 @@
             <a href="#skills" class="hover:text-accent transition duration-300"
               >Skills</a
             >
+            <a
+              href="#projects"
+              class="hover:text-accent transition duration-300"
+              >Projects</a
+            >
+            <a
+              href="#certifications"
+              class="hover:text-accent transition duration-300"
+              >Certifications</a
+            >
             <a href="#contact" class="hover:text-accent transition duration-300"
               >Contact</a
             >
@@ -52,17 +62,22 @@
     <!-- Hero Section -->
     <section class="py-20 text-center">
       <div class="container mx-auto px-6">
-        <h1 class="text-6xl md:text-7xl font-bold mb-4 text-accent">
-          Abdullah Al Mahmud
-        </h1>
-        <h2 class="text-4xl md:text-5xl font-bold mb-8">Software Engineer</h2>
+        <h1
+          id="hero-name"
+          class="text-6xl md:text-7xl font-bold mb-4 text-accent"
+        ></h1>
+        <h2
+          id="hero-designation"
+          class="text-4xl md:text-5xl font-bold mb-8"
+        ></h2>
         <p class="text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
           Passionate about creating innovative solutions with expertise in web
           development, mobile applications, and modern technologies.
         </p>
         <div class="flex justify-center space-x-4">
           <a
-            href="mailto:mahmudmridul.185@gmail.com"
+            id="hero-email-btn"
+            href="#"
             class="bg-accent hover:bg-blue-600 text-white px-6 py-3 rounded-lg transition duration-300"
           >
             Get In Touch
@@ -79,8 +94,9 @@
           <div class="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <p class="text-gray-300 leading-relaxed mb-6">
-                Results-driven Full Stack Developer with <span id="experience-years"></span>+ years of experience
-                in designing, developing, and maintaining scalable web
+                Results-driven Full Stack Developer with
+                <span id="experience-years"></span>+ years of experience in
+                designing, developing, and maintaining scalable web
                 applications.
               </p>
               <p class="text-gray-300 leading-relaxed">
@@ -90,23 +106,8 @@
                 experience.
               </p>
             </div>
-            <div class="space-y-4">
-              <div class="flex justify-between">
-                <span class="font-semibold">Location:</span>
-                <span class="text-gray-400">Dhaka, Bangladesh</span>
-              </div>
-              <div class="flex justify-between">
-                <span class="font-semibold">Email:</span>
-                <span class="text-gray-400">mahmudmridul.185@gmail.com</span>
-              </div>
-              <div class="flex justify-between">
-                <span class="font-semibold">Phone:</span>
-                <span class="text-gray-400">+880 1798171939</span>
-              </div>
-              <div class="flex justify-between">
-                <span class="font-semibold">LinkedIn:</span>
-                <span class="text-gray-400">abdullahal-mahmud</span>
-              </div>
+            <div id="contact-info" class="space-y-4">
+              <!-- Contact info will be populated dynamically -->
             </div>
           </div>
         </div>
@@ -119,88 +120,8 @@
         <h3 class="text-3xl font-bold mb-12 text-center">
           Professional Experience
         </h3>
-        <div class="max-w-4xl mx-auto">
-          <!-- Bangla Puzzle Limited -->
-          <div class="mb-12 bg-dark-lighter p-6 rounded-lg">
-            <div
-              class="flex flex-col md:flex-row md:justify-between md:items-start mb-4"
-            >
-              <div>
-                <h4 class="text-xl font-bold text-accent">Software Engineer</h4>
-                <p class="text-lg text-gray-300">Bangla Puzzle Limited</p>
-              </div>
-              <span class="text-gray-400 mt-2 md:mt-0">Feb 2024 - Present</span>
-            </div>
-            <ul class="text-gray-300 space-y-2">
-              <li>
-                • Developed and maintained web applications using modern
-                frameworks
-              </li>
-              <li>
-                • Collaborated with cross-functional teams to deliver
-                high-quality software solutions
-              </li>
-              <li>
-                • Implemented responsive designs and optimized application
-                performance
-              </li>
-            </ul>
-          </div>
-
-          <!-- Field Nation -->
-          <div class="mb-12 bg-dark-lighter p-6 rounded-lg">
-            <div
-              class="flex flex-col md:flex-row md:justify-between md:items-start mb-4"
-            >
-              <div>
-                <h4 class="text-xl font-bold text-accent">
-                  Contractor / Field Engineer
-                </h4>
-                <p class="text-lg text-gray-300">Field Nation</p>
-              </div>
-              <span class="text-gray-400 mt-2 md:mt-0">Jan 2022 - Present</span>
-            </div>
-            <ul class="text-gray-300 space-y-2">
-              <li>
-                • Provided technical support and field engineering services
-              </li>
-              <li>
-                • Managed multiple projects and maintained client relationships
-              </li>
-              <li>
-                • Troubleshot hardware and software issues in various
-                environments
-              </li>
-            </ul>
-          </div>
-
-          <!-- School of Engg. Tech, EWU -->
-          <div class="bg-dark-lighter p-6 rounded-lg">
-            <div
-              class="flex flex-col md:flex-row md:justify-between md:items-start mb-4"
-            >
-              <div>
-                <h4 class="text-xl font-bold text-accent">Lab Instructor</h4>
-                <p class="text-lg text-gray-300">
-                  School of Engineering & Technology, East West University
-                </p>
-              </div>
-              <span class="text-gray-400 mt-2 md:mt-0"
-                >Jan 2022 - Feb 2024</span
-              >
-            </div>
-            <ul class="text-gray-300 space-y-2">
-              <li>
-                • Instructed students in computer programming and software
-                development
-              </li>
-              <li>• Designed and conducted practical laboratory sessions</li>
-              <li>
-                • Mentored students in various programming languages and
-                technologies
-              </li>
-            </ul>
-          </div>
+        <div id="experience-list" class="max-w-4xl mx-auto">
+          <!-- Experience items will be populated dynamically -->
         </div>
       </div>
     </section>
@@ -209,236 +130,44 @@
     <section id="education" class="py-16 bg-dark-lighter">
       <div class="container mx-auto px-6">
         <h3 class="text-3xl font-bold mb-12 text-center">Education</h3>
-        <div class="max-w-4xl mx-auto">
-          <!-- Bachelor's Degree -->
-          <div class="mb-8 bg-dark p-6 rounded-lg">
-            <div
-              class="flex flex-col md:flex-row md:justify-between md:items-start mb-4"
-            >
-              <div>
-                <h4 class="text-xl font-bold text-accent">
-                  Bachelor of Science in Computer Science & Engineering
-                </h4>
-                <p class="text-lg text-gray-300">East West University</p>
-                <p class="text-gray-400">CGPA: 3.33 out of 4.00</p>
-              </div>
-              <span class="text-gray-400 mt-2 md:mt-0">2018 - 2022</span>
-            </div>
-          </div>
+        <div id="education-list" class="max-w-4xl mx-auto">
+          <!-- Education items will be populated dynamically -->
+        </div>
+      </div>
+    </section>
 
-          <!-- HSC -->
-          <div class="mb-8 bg-dark p-6 rounded-lg">
-            <div
-              class="flex flex-col md:flex-row md:justify-between md:items-start mb-4"
-            >
-              <div>
-                <h4 class="text-xl font-bold text-accent">
-                  Higher Secondary Certificate (HSC)
-                </h4>
-                <p class="text-lg text-gray-300">Notre Dame College</p>
-                <p class="text-gray-400">GPA: 5.00 out of 5.00</p>
-              </div>
-              <span class="text-gray-400 mt-2 md:mt-0">2015 - 2017</span>
-            </div>
-          </div>
-
-          <!-- SSC -->
-          <div class="bg-dark p-6 rounded-lg">
-            <div
-              class="flex flex-col md:flex-row md:justify-between md:items-start mb-4"
-            >
-              <div>
-                <h4 class="text-xl font-bold text-accent">
-                  Secondary School Certificate (SSC)
-                </h4>
-                <p class="text-lg text-gray-300">Rajuk Uttara Model College</p>
-                <p class="text-gray-400">GPA: 5.00 out of 5.00</p>
-              </div>
-              <span class="text-gray-400 mt-2 md:mt-0">2013 - 2015</span>
-            </div>
-          </div>
+    <!-- Projects Section -->
+    <section id="projects" class="py-16">
+      <div class="container mx-auto px-6">
+        <h3 class="text-3xl font-bold mb-12 text-center">Projects</h3>
+        <div
+          id="projects-list"
+          class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8"
+        >
+          <!-- Projects will be populated dynamically -->
         </div>
       </div>
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="py-16">
+    <section id="skills" class="py-16 bg-dark-lighter">
       <div class="container mx-auto px-6">
         <h3 class="text-3xl font-bold mb-12 text-center">Technical Skills</h3>
-        <div class="max-w-6xl mx-auto">
-          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <!-- Programming Languages -->
-            <div class="bg-dark-lighter p-6 rounded-lg">
-              <h4 class="text-xl font-bold text-accent mb-4">
-                Programming Languages
-              </h4>
-              <div class="space-y-3">
-                <div class="flex items-center">
-                  <div class="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                  <span class="text-gray-300">C#</span>
-                </div>
-                <div class="flex items-center">
-                  <div class="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                  <span class="text-gray-300">Java</span>
-                </div>
-                <div class="flex items-center">
-                  <div class="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                  <span class="text-gray-300">Python</span>
-                </div>
-              </div>
-            </div>
+        <div id="skills-container" class="max-w-6xl mx-auto">
+          <!-- Skills will be populated dynamically -->
+        </div>
+      </div>
+    </section>
 
-            <!-- Frontend Technologies -->
-            <div class="bg-dark-lighter p-6 rounded-lg">
-              <h4 class="text-xl font-bold text-accent mb-4">
-                Frontend Technologies
-              </h4>
-              <div class="space-y-3">
-                <div class="flex items-center">
-                  <div class="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                  <span class="text-gray-300">HTML, CSS, JavaScript</span>
-                </div>
-                <div class="flex items-center">
-                  <div class="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                  <span class="text-gray-300">React, Redux</span>
-                </div>
-                <div class="flex items-center">
-                  <div class="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                  <span class="text-gray-300">MUI, Bootstrap</span>
-                </div>
-                <div class="flex items-center">
-                  <div class="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                  <span class="text-gray-300">Tailwind CSS</span>
-                </div>
-              </div>
-            </div>
-
-            <!-- Backend & Frameworks -->
-            <div class="bg-dark-lighter p-6 rounded-lg">
-              <h4 class="text-xl font-bold text-accent mb-4">
-                Backend & Frameworks
-              </h4>
-              <div class="space-y-3">
-                <div class="flex items-center">
-                  <div class="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                  <span class="text-gray-300">.NET</span>
-                </div>
-                <div class="flex items-center">
-                  <div class="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                  <span class="text-gray-300">LINQ</span>
-                </div>
-                <div class="flex items-center">
-                  <div class="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                  <span class="text-gray-300">Entity Framework</span>
-                </div>
-              </div>
-            </div>
-
-            <!-- Databases -->
-            <div class="bg-dark-lighter p-6 rounded-lg">
-              <h4 class="text-xl font-bold text-accent mb-4">Databases</h4>
-              <div class="space-y-3">
-                <div class="flex items-center">
-                  <div class="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                  <span class="text-gray-300">MySQL</span>
-                </div>
-                <div class="flex items-center">
-                  <div class="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                  <span class="text-gray-300">MS SQL Server</span>
-                </div>
-                <div class="flex items-center">
-                  <div class="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                  <span class="text-gray-300">Oracle SQL</span>
-                </div>
-              </div>
-            </div>
-
-            <!-- Version Control -->
-            <div class="bg-dark-lighter p-6 rounded-lg">
-              <h4 class="text-xl font-bold text-accent mb-4">
-                Version Control
-              </h4>
-              <div class="space-y-3">
-                <div class="flex items-center">
-                  <div class="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                  <span class="text-gray-300">Git, GitHub</span>
-                </div>
-                <div class="flex items-center">
-                  <div class="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                  <span class="text-gray-300">Tortoise Git</span>
-                </div>
-                <div class="flex items-center">
-                  <div class="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                  <span class="text-gray-300">TortoiseSVN, Subversion</span>
-                </div>
-              </div>
-            </div>
-
-            <!-- DevOps & Cloud -->
-            <div class="bg-dark-lighter p-6 rounded-lg">
-              <h4 class="text-xl font-bold text-accent mb-4">DevOps & Cloud</h4>
-              <div class="space-y-3">
-                <div class="flex items-center">
-                  <div class="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                  <span class="text-gray-300">Docker, Docker Compose</span>
-                </div>
-                <div class="flex items-center">
-                  <div class="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                  <span class="text-gray-300">Microsoft Azure</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Additional Skills Row -->
-          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
-            <!-- Project Management -->
-            <div class="bg-dark-lighter p-6 rounded-lg">
-              <h4 class="text-xl font-bold text-accent mb-4">
-                Project Management
-              </h4>
-              <div class="space-y-3">
-                <div class="flex items-center">
-                  <div class="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                  <span class="text-gray-300">JIRA</span>
-                </div>
-                <div class="flex items-center">
-                  <div class="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                  <span class="text-gray-300">Trello</span>
-                </div>
-              </div>
-            </div>
-
-            <!-- Methodologies -->
-            <div class="bg-dark-lighter p-6 rounded-lg">
-              <h4 class="text-xl font-bold text-accent mb-4">Methodologies</h4>
-              <div class="space-y-3">
-                <div class="flex items-center">
-                  <div class="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                  <span class="text-gray-300">Agile</span>
-                </div>
-                <div class="flex items-center">
-                  <div class="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                  <span class="text-gray-300">Scrum</span>
-                </div>
-              </div>
-            </div>
-
-            <!-- Tools -->
-            <div class="bg-dark-lighter p-6 rounded-lg">
-              <h4 class="text-xl font-bold text-accent mb-4">Tools</h4>
-              <div class="space-y-3">
-                <div class="flex items-center">
-                  <div class="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                  <span class="text-gray-300">MS Word</span>
-                </div>
-                <div class="flex items-center">
-                  <div class="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                  <span class="text-gray-300">Excel, PowerPoint</span>
-                </div>
-              </div>
-            </div>
-          </div>
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-16">
+      <div class="container mx-auto px-6">
+        <h3 class="text-3xl font-bold mb-12 text-center">Certifications</h3>
+        <div
+          id="certifications-list"
+          class="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-6"
+        >
+          <!-- Certifications will be populated dynamically -->
         </div>
       </div>
     </section>
@@ -453,38 +182,8 @@
               <h4 class="text-xl font-bold text-accent mb-6">
                 Contact Information
               </h4>
-              <div class="space-y-4">
-                <div class="flex items-center">
-                  <span class="font-semibold w-20">Email:</span>
-                  <a
-                    href="mailto:mahmudmridul.185@gmail.com"
-                    class="text-accent hover:underline"
-                    >mahmudmridul.185@gmail.com</a
-                  >
-                </div>
-                <div class="flex items-center">
-                  <span class="font-semibold w-20">Phone:</span>
-                  <a
-                    href="tel:+8801521520519"
-                    class="text-accent hover:underline"
-                    >+880 1798171939</a
-                  >
-                </div>
-                <div class="flex items-center">
-                  <span class="font-semibold w-20">LinkedIn:</span>
-                  <a
-                    href="https://www.linkedin.com/in/abdullahalmahmudmridul/"
-                    class="text-accent hover:underline"
-                    target="_blank"
-                    >Abdullah Al Mahmud</a
-                  >
-                </div>
-                <div class="flex items-center">
-                  <span class="font-semibold w-20">Location:</span>
-                  <span class="text-gray-300"
-                    >Mohakhali, Dhaka, Bangladesh</span
-                  >
-                </div>
+              <div id="contact-details" class="space-y-4">
+                <!-- Contact details will be populated dynamically -->
               </div>
             </div>
             <div>
@@ -494,19 +193,8 @@
                 projects. Feel free to reach out if you'd like to discuss
                 potential collaborations or just want to connect!
               </p>
-              <div class="flex space-x-4">
-                <a
-                  href="mailto:mahmudmridul.185@gmail.com"
-                  class="bg-accent hover:bg-blue-600 text-white px-6 py-3 rounded-lg transition duration-300"
-                >
-                  Send Email
-                </a>
-                <a
-                  href="tel:+8801798171939"
-                  class="border border-accent text-accent hover:bg-accent hover:text-white px-6 py-3 rounded-lg transition duration-300"
-                >
-                  Call Now
-                </a>
+              <div id="contact-buttons" class="flex space-x-4">
+                <!-- Contact buttons will be populated dynamically -->
               </div>
             </div>
           </div>
@@ -518,38 +206,327 @@
     <footer class="bg-dark py-8 text-center">
       <div class="container mx-auto px-6">
         <p class="text-gray-400">
-          © 2025 Abdullah Al Mahmud. All rights reserved.
+          © 2025 <span id="footer-name"></span>. All rights reserved.
         </p>
       </div>
     </footer>
 
-    
     <script>
-      
+      let portfolioData = null;
+
+      // Calculate experience years
       function calculateExperience() {
-        const startDate = new Date('2021-08-01');
+        const startDate = new Date("2021-08-01");
         const currentDate = new Date();
         const diffTime = Math.abs(currentDate - startDate);
         const diffYears = diffTime / (1000 * 60 * 60 * 24 * 365.25);
         return Math.floor(diffYears);
       }
 
+      // Populate Hero Section
+      function populateHeroSection(data) {
+        document.getElementById("hero-name").textContent = data.basicInfo.name;
+        document.getElementById("hero-designation").textContent =
+          data.basicInfo.designation;
+        document.getElementById("footer-name").textContent =
+          data.basicInfo.name;
+
+        // Set email button
+        const emailContact = data.contacts.find((contact) =>
+          contact.link.includes("mailto:")
+        );
+        if (emailContact) {
+          document.getElementById("hero-email-btn").href = emailContact.link;
+        }
+      }
+
+      // Populate About Section
+      function populateAboutSection(data) {
+        const contactInfo = document.getElementById("contact-info");
+        contactInfo.innerHTML = `
+          <div class="flex justify-between">
+            <span class="font-semibold">Location:</span>
+            <span class="text-gray-400">Dhaka, Bangladesh</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="font-semibold">Email:</span>
+            <span class="text-gray-400">${data.contacts
+              .find((c) => c.link.includes("mailto:"))
+              .link.replace("mailto:", "")}</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="font-semibold">Phone:</span>
+            <span class="text-gray-400">${
+              data.contacts.find((c) => c.text.includes("+88")).text
+            }</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="font-semibold">LinkedIn:</span>
+            <span class="text-gray-400">abdullahal-mahmud</span>
+          </div>
+        `;
+      }
+
+      // Populate Experience Section
+      function populateExperienceSection(data) {
+        const experienceList = document.getElementById("experience-list");
+        experienceList.innerHTML = data.experiences
+          .map(
+            (exp) => `
+          <div class="mb-12 bg-dark-lighter p-6 rounded-lg">
+            <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+              <div>
+                <h4 class="text-xl font-bold text-accent">${exp.role}</h4>
+                <p class="text-lg text-gray-300">${exp.company}</p>
+              </div>
+              <span class="text-gray-400 mt-2 md:mt-0">${exp.timeSpan}</span>
+            </div>
+            <ul class="text-gray-300 space-y-2">
+              ${exp.responsibilities
+                .map(
+                  (resp) => `
+                <li>• ${resp.detail}</li>
+                <div class="flex flex-wrap gap-2 mt-2 mb-4">
+                  ${resp.tech
+                    .map(
+                      (tech) =>
+                        `<span class="bg-accent/20 text-accent px-2 py-1 rounded text-sm">${tech}</span>`
+                    )
+                    .join("")}
+                </div>
+              `
+                )
+                .join("")}
+            </ul>
+          </div>
+        `
+          )
+          .join("");
+      }
+
+      // Populate Education Section
+      function populateEducationSection(data) {
+        const educationList = document.getElementById("education-list");
+        educationList.innerHTML = data.educations
+          .map(
+            (edu) => `
+          <div class="mb-8 bg-dark p-6 rounded-lg">
+            <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+              <div>
+                <h4 class="text-xl font-bold text-accent">${edu.degree}${
+              edu.major ? ` in ${edu.major}` : ""
+            }</h4>
+                <p class="text-lg text-gray-300">${edu.institution}</p>
+                <p class="text-gray-400">CGPA: ${edu.cgpa} out of ${
+              edu.degree === "Bachelor of Science" ? "4.00" : "5.00"
+            }</p>
+              </div>
+              <span class="text-gray-400 mt-2 md:mt-0">${edu.time}</span>
+            </div>
+          </div>
+        `
+          )
+          .join("");
+      }
+
+      // Populate Projects Section
+      function populateProjectsSection(data) {
+        const projectsList = document.getElementById("projects-list");
+        projectsList.innerHTML = data.projects
+          .map(
+            (project) => `
+          <div class="bg-dark-lighter p-6 rounded-lg">
+            <div class="flex justify-between items-start mb-4">
+              <h4 class="text-xl font-bold text-accent">${project.name}</h4>
+              <span class="text-sm text-gray-400 bg-accent/20 px-2 py-1 rounded">${
+                project.source
+              }</span>
+            </div>
+            <p class="text-gray-300 mb-4">${project.detail}</p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              ${project.tech
+                .map(
+                  (tech) =>
+                    `<span class="bg-accent/20 text-accent px-2 py-1 rounded text-sm">${tech}</span>`
+                )
+                .join("")}
+            </div>
+            ${
+              project.link
+                ? `
+              <a href="${project.link}" target="_blank" 
+                 class="inline-flex items-center text-accent hover:underline">
+                View Project →
+              </a>
+            `
+                : ""
+            }
+          </div>
+        `
+          )
+          .join("");
+      }
+
+      // Populate Skills Section
+      function populateSkillsSection(data) {
+        const skillsContainer = document.getElementById("skills-container");
+        const skillsArray = Object.values(data.skills);
+
+        // Create rows of 3 skills each
+        let skillsHTML = "";
+        for (let i = 0; i < skillsArray.length; i += 3) {
+          const rowSkills = skillsArray.slice(i, i + 3);
+          skillsHTML += `
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 ${
+              i > 0 ? "mt-8" : ""
+            }">
+              ${rowSkills
+                .map(
+                  (skill) => `
+                <div class="bg-dark-lighter p-6 rounded-lg">
+                  <h4 class="text-xl font-bold text-accent mb-4">${
+                    skill.title
+                  }</h4>
+                  <div class="space-y-3">
+                    ${skill.tech
+                      .map(
+                        (tech) => `
+                      <div class="flex items-center">
+                        <div class="w-2 h-2 bg-accent rounded-full mr-3"></div>
+                        <span class="text-gray-300">${tech}</span>
+                      </div>
+                    `
+                      )
+                      .join("")}
+                  </div>
+                </div>
+              `
+                )
+                .join("")}
+            </div>
+          `;
+        }
+        skillsContainer.innerHTML = skillsHTML;
+      }
+
+      // Populate Certifications Section
+      function populateCertificationsSection(data) {
+        const certificationsList = document.getElementById(
+          "certifications-list"
+        );
+        certificationsList.innerHTML = data.certifications
+          .map(
+            (cert) => `
+          <div class="bg-dark-lighter p-6 rounded-lg">
+            <h4 class="text-lg font-bold text-accent mb-2">${cert.name}</h4>
+            <p class="text-gray-400 mb-4">${cert.platform}</p>
+            <a href="${cert.link}" target="_blank" 
+               class="inline-flex items-center text-accent hover:underline text-sm">
+              View Certificate →
+            </a>
+          </div>
+        `
+          )
+          .join("");
+      }
+
+      // Populate Contact Section
+      function populateContactSection(data) {
+        const emailContact = data.contacts.find((c) =>
+          c.link.includes("mailto:")
+        );
+        const phoneContact = data.contacts.find((c) => c.text.includes("+88"));
+        const linkedinContact = data.contacts.find((c) =>
+          c.link.includes("linkedin")
+        );
+
+        const contactDetails = document.getElementById("contact-details");
+        contactDetails.innerHTML = `
+          <div class="flex items-center">
+            <span class="font-semibold w-20">Email:</span>
+            <a href="${emailContact.link}" class="text-accent hover:underline">
+              ${emailContact.link.replace("mailto:", "")}
+            </a>
+          </div>
+          <div class="flex items-center">
+            <span class="font-semibold w-20">Phone:</span>
+            <a href="tel:${phoneContact.text.replace(
+              /\s/g,
+              ""
+            )}" class="text-accent hover:underline">
+              ${phoneContact.text}
+            </a>
+          </div>
+          <div class="flex items-center">
+            <span class="font-semibold w-20">LinkedIn:</span>
+            <a href="${
+              linkedinContact.link
+            }" class="text-accent hover:underline" target="_blank">
+              Abdullah Al Mahmud
+            </a>
+          </div>
+          <div class="flex items-center">
+            <span class="font-semibold w-20">Location:</span>
+            <span class="text-gray-300">Mohakhali, Dhaka, Bangladesh</span>
+          </div>
+        `;
+
+        const contactButtons = document.getElementById("contact-buttons");
+        contactButtons.innerHTML = `
+          <a href="${emailContact.link}" 
+             class="bg-accent hover:bg-blue-600 text-white px-6 py-3 rounded-lg transition duration-300">
+            Send Email
+          </a>
+          <a href="tel:${phoneContact.text.replace(/\s/g, "")}" 
+             class="border border-accent text-accent hover:bg-accent hover:text-white px-6 py-3 rounded-lg transition duration-300">
+            Call Now
+          </a>
+        `;
+      }
+
+      // Fetch data and populate all sections
+      fetch(
+        "https://cdn.jsdelivr.net/gh/MahmudMridul/resume-data@main/data.json"
+      )
+        .then((res) => res.json())
+        .then((data) => {
+          portfolioData = data;
+          console.log(data);
+
+          // Populate all sections
+          populateHeroSection(data);
+          populateAboutSection(data);
+          populateExperienceSection(data);
+          populateEducationSection(data);
+          populateProjectsSection(data);
+          populateSkillsSection(data);
+          populateCertificationsSection(data);
+          populateContactSection(data);
+        })
+        .catch((error) => {
+          console.error("Error fetching data:", error);
+        });
+
       // Set experience years on page load
-      document.addEventListener('DOMContentLoaded', function() {
-        const experienceElement = document.getElementById('experience-years');
-        experienceElement.textContent = calculateExperience();
+      document.addEventListener("DOMContentLoaded", function () {
+        const experienceElement = document.getElementById("experience-years");
+        if (experienceElement) {
+          experienceElement.textContent = calculateExperience();
+        }
       });
 
-      // Smooth Scrolling Script 
+      // Smooth Scrolling Script
       document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
         anchor.addEventListener("click", function (e) {
           e.preventDefault();
-          document.querySelector(this.getAttribute("href")).scrollIntoView({
-            behavior: "smooth",
-          });
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({
+              behavior: "smooth",
+            });
+          }
         });
       });
-
     </script>
   </body>
 </html>
